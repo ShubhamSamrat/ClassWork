@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
+    <script src="./p5.play.js"></script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyBAdGsW_M-AkFpJ5um2RXFBBwoaVFv6OoQ",
+        authDomain: "mymultiplayer-73508.firebaseapp.com",
+        databaseURL: "https://mymultiplayer-73508.firebaseio.com",
+        projectId: "mymultiplayer-73508",
+        storageBucket: "mymultiplayer-73508.appspot.com",
+        messagingSenderId: "372033536757",
+        appId: "1:372033536757:web:a3c0a51d26146962e33bbc"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+    <script src="game.js"></script>
+    <script src="player.js"></script>
+    <script src="form.js"></script>
+    <script src="sketch.js"></script>
+      
+  </body>
+</html>
